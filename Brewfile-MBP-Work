@@ -1,0 +1,30 @@
+tap "homebrew/cask"
+cask_args appdir: "/Applications"
+
+brew "tmux"
+brew "gcc"
+brew "boost@1.60"
+brew "openssl@1.1"
+
+cask "authy"
+cask "clipy"
+#cask "google-chrome"
+cask "cheatsheet"
+cask "iterm2"
+cask "kindle"
+#cask "slack"
+cask "visual-studio-code"
+#cask "vlc"
+cask "the-unarchiver"
+#cask "dropbox"
+#cask "box-sync"
+cask "karabiner-elements"
+cask "zoomus"
+cask "skype-for-business"
+
+mas "yoink", id:457622435
+mas "be-focused-pro-focus-timer", id:961632517
+#mas "ulysses", id:1225570693
+mas "popclip",id:445189367
+mas "microsoft-to-do", id:1274495053
+
